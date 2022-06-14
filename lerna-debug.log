@@ -1,0 +1,17 @@
+0 silly argv { _: [ 'bootstrap' ], lernaVersion: '5.1.2', '$0': 'lerna' }
+1 notice cli v5.1.2
+2 verbose rootPath /Users/zhouqingyi/repos/lerna-repo
+3 info versioning independent
+4 error JSONError: Unexpected token "}" (0x7D) in JSON at position 261 while parsing near "...ents\": \"5.2.0\",\n    },\n    \"peerDependen..." in packages/input/package.json
+4 error
+4 error [0m [90m  9 |[39m         [32m"react-dom"[39m[33m:[39m [32m"16.13.1"[39m[33m,[39m[0m
+4 error [0m [90m 10 |[39m         [32m"styled-components"[39m[33m:[39m [32m"5.2.0"[39m[33m,[39m[0m
+4 error [0m[31m[1m>[22m[39m[90m 11 |[39m     }[33m,[39m[0m
+4 error [0m [90m    |[39m     [31m[1m^[22m[39m[0m
+4 error [0m [90m 12 |[39m     [32m"peerDependencies"[39m[33m:[39m {[0m
+4 error [0m [90m 13 |[39m         [32m"react"[39m[33m:[39m [32m"^16.0.0"[39m[33m,[39m[0m
+4 error [0m [90m 14 |[39m         [32m"react-dom"[39m[33m:[39m [32m"^16.0.0"[39m[33m,[39m[0m
+4 error
+4 error     at parseJson (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:29:21)
+4 error     at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:15:9)
+4 error     at module.exports (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:18:47)
