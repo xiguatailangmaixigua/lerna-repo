@@ -1,6 +1,6 @@
 {
     "name": "cello-button",
-    "version": "1.0.3-alpha.1+655d3c8",
+    "version": "1.0.2",
     "main": "lib/index.js",
     "module": "src/index.js",
     "author": "zhouqingyi",
