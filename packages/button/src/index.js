@@ -48,7 +48,7 @@ const StyledButton = styled.button`
         `}
 `;
 
-const Button = (props) => <StyledButton {...props} />;
+const Button = (props) => <><StyledButton {...props} /></>;
 
 Button.propTypes = {
     disabled: PropTypes.bool.isRequired,
