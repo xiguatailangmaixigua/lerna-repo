@@ -4,6 +4,6 @@
     "lerna": "^5.1.2"
   },
   "scripts": {
-    "publish": "lerna publish --canary --yes"
+    "publish": "lerna publish --canary --dist-tag next --yes"
   }
 }
