@@ -3,6 +3,7 @@
     "version": "1.0.3-alpha.1+655d3c8",
     "main": "lib/index.js",
     "module": "src/index.js",
+    "author": "zhouqingyi",
     "dependencies": {
         "prop-types": "15.7.2",
         "react": "16.13.1",
